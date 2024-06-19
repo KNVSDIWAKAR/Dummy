@@ -39,6 +39,10 @@
   margin-right: 10px;
 }
 
+.Map_Restrict {
+  width: 100%;
+}
+
 .L1Part3 {
   border-radius: 10px;
   padding: 2px;
@@ -61,6 +65,21 @@
   box-sizing: border-box;
   background-color: #ffff;
   margin-bottom: 10px;
+}
+
+.All_time,
+.Month,
+.Year {
+  margin-right: 0.2rem;
+}
+
+.buttons_pie_chart {
+  margin-top: 1rem;
+}
+
+.main_part {
+  display: flex;
+  justify-content: space-between;
 }
 
 .L1Part2-1 {
@@ -172,6 +191,7 @@
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
+
   .Layer1,
   .Layer2,
   .Layer3 {

@@ -14,15 +14,24 @@ const data = {
 };
 
 const options = {
-  legend: {
-    display: true,
-    position: "right",
+  plugins: {
+    legend: {
+      display: true,
+      position: "right",
+    },
   },
+  layout: {
+    padding: {
+      top: 0,
+      bottom: 0,
+    }
+  },
+  maintainAspectRatio: false,
 };
 
 const PieChart = () => {
   return (
-    <div>
+    <div style={{ width: "250px", height: "250px" }}>
       <Doughnut data={data} options={options} />
     </div>
   );
