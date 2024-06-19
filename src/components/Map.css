@@ -10,11 +10,21 @@
 .map-unselected:hover {
   cursor: pointer;
 }
+
+.map-img {
+  width: 100%;
+  /* Adjust to fit within the parent element */
+  height: auto;
+  /* Maintain aspect ratio */
+  display: block;
+  /* Ensure it takes up the full width of its container */
+  opacity: 1;
+  /* Ensure visibility */
+}
+
 .Map {
-  width: 283px;
-  height: 132.58px;
-  top: 206px;
-  left: 1552px;
+  width: 100%;
+  height: auto;
   gap: 0px;
   opacity: 0px;
 }

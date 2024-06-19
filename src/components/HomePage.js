@@ -4,6 +4,7 @@ import "./HomePage.css";
 import Calender from "./Calender";
 import Graph from "./Graph";
 import PieChart from "./PieChart";
+import GlobalProgressChart from "./GlobalProgressChart";
 
 const homepage = () => {
   return (
@@ -30,6 +31,7 @@ const homepage = () => {
         <div className="L1Part2">
           <div className="L1Part2-1">
             <p className="text3">Global Progress</p>
+            <GlobalProgressChart />
           </div>
         </div>
         <div className="L1Part3">
@@ -42,8 +44,19 @@ const homepage = () => {
       </div>
       <div className="Layer2">
         <div className="L2Part1">
-          <p className="text3">Profit (Project wise distribution)</p>
-          {/* <PieChart /> */}
+          <div className="main_part">
+            <div className="part_1">
+              <p className="text3">Profit (Project wise distribution)</p>
+            </div>
+            <div className="part_2">
+              <div className="buttons_pie_chart">
+                <button className="All_time">All time</button>
+                <button className="Month">Month</button>
+                <button className="Year">Year</button>
+              </div>
+            </div>
+          </div>
+          <PieChart />
         </div>
         <div className="L2Part2">
           <p className="text3">vNS Funds</p>
