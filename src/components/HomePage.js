@@ -5,6 +5,7 @@ import Calender from "./Calender";
 import Graph from "./Graph";
 import PieChart from "./PieChart";
 import GlobalProgressChart from "./GlobalProgressChart";
+import Dashboard from "./Dashboard";
 
 const homepage = () => {
   return (
@@ -60,6 +61,7 @@ const homepage = () => {
         </div>
         <div className="L2Part2">
           <p className="text3">vNS Funds</p>
+          <Dashboard />
         </div>
       </div>
       <div className="Layer3">
@@ -68,6 +70,47 @@ const homepage = () => {
         </div>
         <div className="L3Part2">
           <p className="text3">Today's Roster</p>
+          <div className="L3Part21">
+            <div className="L3Part22">
+              <div className="L3Part23">
+                <div className="L3Part25">
+                  Fault : 221344ku4 (Chennai South) - Due Today
+                </div>
+                <div className="L3Part26">
+                  Faults completion issued. Approval Pending.
+                </div>
+              </div>
+              <div className="L3Part24">Go to action</div>
+            </div>
+
+            <div className="L3Part21">
+              <div className="L3Part22">
+                <div className="L3Part23">
+                  <div className="L3Part25">
+                    Project North East starts today!{" "}
+                  </div>
+                  <div className="L3Part26">
+                    Project approval from the CEO pending.
+                  </div>
+                </div>
+                <div className="L3Part24">Go to action</div>
+              </div>
+            </div>
+
+            <div className="L3Part21">
+              <div className="L3Part22">
+                <div className="L3Part23">
+                  <div className="L3Part25">
+                    Fault : 221344ku4 (Chennai South) - Due Today
+                  </div>
+                  <div className="L3Part26">
+                    Faults completion issued. Approval Pending.
+                  </div>
+                </div>
+                <div className="L3Part24">Go to action</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="L3Part3">
           <Calender />
